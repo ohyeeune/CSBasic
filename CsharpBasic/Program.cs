@@ -50,6 +50,13 @@ namespace CSBasic
             {
                 Console.Write((char)i);
             }
+            Console.WriteLine();
+
+            var hello = "안녕~";
+            var hello2 = 10000;
+            Console.WriteLine("++++ 입력 테스트 ++++");
+            string input = Console.ReadLine();
+            Console.WriteLine("방금 네가 쓴 것 : " + input);
         }
     }
 }
